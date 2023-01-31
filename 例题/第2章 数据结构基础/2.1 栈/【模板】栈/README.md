@@ -1,1 +1,1 @@
-[B3614 【模板】栈](https://www.luogu.com.cn/problem/B3614)
+题目链接：[B3614 【模板】栈](https://www.luogu.com.cn/problem/B3614)
