@@ -1,0 +1,1 @@
+[B3614 【模板】栈](https://www.luogu.com.cn/problem/B3614)
