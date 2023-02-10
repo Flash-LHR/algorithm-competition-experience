@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef unsigned long long ull;
-
 const int M = (int)1e6;
 const int inf = 0x3f3f3f3f;
 
