@@ -34,13 +34,13 @@ int main() {
     decltype(trr) newtr;
     trr.split(*it2, newtr);
     for (auto i = newtr.begin(); i != newtr.end(); ++i) {
-    cout << (*i).first << ' ';
+        cout << (*i).first << ' ';
     }
     cout << endl;
     // {4,2},{5,1} 被放入新树
     trr.join(newtr);
     for (auto i = trr.begin(); i != trr.end(); ++i) {
-    cout << (*i).first << ' ';
+        cout << (*i).first << ' ';
     }
     cout << endl;
     cout << newtr.size() << endl;
