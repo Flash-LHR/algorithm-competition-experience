@@ -1,0 +1,1 @@
+题目链接：[[NOIP1999 普及组] 导弹拦截](https://www.luogu.com.cn/problem/P1020)

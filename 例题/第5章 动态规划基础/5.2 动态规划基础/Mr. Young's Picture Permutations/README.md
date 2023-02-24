@@ -1,0 +1,1 @@
+题目链接：[Mr. Young's Picture Permutations](http://poj.org/problem?id=2279)

@@ -1,0 +1,1 @@
+题目链接：[[USACO1.5][IOI1994]数字三角形 Number Triangles](https://www.luogu.com.cn/problem/P1216)

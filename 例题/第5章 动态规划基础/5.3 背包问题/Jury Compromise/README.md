@@ -1,0 +1,1 @@
+题目链接：[Jury Compromise](http://poj.org/problem?id=1015)

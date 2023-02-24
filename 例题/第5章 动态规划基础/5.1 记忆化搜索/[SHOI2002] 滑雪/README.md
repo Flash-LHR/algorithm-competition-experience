@@ -1,0 +1,1 @@
+题目链接：[[SHOI2002] 滑雪](https://www.luogu.com.cn/problem/P1434)

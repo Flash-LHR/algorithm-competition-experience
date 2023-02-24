@@ -1,0 +1,1 @@
+题目链接：[Coins](http://poj.org/problem?id=1742)
