@@ -1,0 +1,1 @@
+题目链接：[[NOI1995] 石子合并](https://www.luogu.com.cn/problem/P1880)

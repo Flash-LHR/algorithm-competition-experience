@@ -1,0 +1,1 @@
+题目链接：[Gerald and Giant Chess](https://codeforces.com/problemset/problem/559/C)

@@ -1,0 +1,1 @@
+题目链接：[[NOI2001] 炮兵阵地](https://www.luogu.com.cn/problem/P2704)

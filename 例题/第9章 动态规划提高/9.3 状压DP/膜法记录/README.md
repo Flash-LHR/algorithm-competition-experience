@@ -1,0 +1,1 @@
+题目链接：[膜法记录](https://ac.nowcoder.com/acm/contest/4784/A)

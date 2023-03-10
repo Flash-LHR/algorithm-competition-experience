@@ -1,0 +1,1 @@
+题目链接：[[AHOI2009]同类分布](https://www.luogu.com.cn/problem/P4127)

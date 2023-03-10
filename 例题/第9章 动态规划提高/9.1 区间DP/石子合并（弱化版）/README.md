@@ -1,0 +1,1 @@
+题目链接：[石子合并（弱化版）](https://www.luogu.com.cn/problem/P1775)
