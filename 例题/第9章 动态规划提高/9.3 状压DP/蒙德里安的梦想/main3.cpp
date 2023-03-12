@@ -24,7 +24,8 @@ void work() {
     }
     for (int i = 0; i < (1<<m); i++) {
         nx[i].clear();
-        for (int j = 0; j < (1<<m); j++) if (!(i & j) && ok[i | j]) nx[i].push_back(j);
+        for (int j = 0; j < (1<<m); j++)
+            if (!(i & j) && ok[i | j]) nx[i].push_back(j);
     }
     for (int i = 0; i < (1<<m); i++) f[0][i] = ok[i];
     for (int i = 1; i < n; i++) memset(f[i], 0, sizeof(ll) * (1<<m));

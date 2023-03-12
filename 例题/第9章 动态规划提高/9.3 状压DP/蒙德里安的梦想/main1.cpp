@@ -25,9 +25,10 @@ void work() {
     for (int i = 1; i < n; i++) {
         for (int j = 0; j < (1<<m); j++) {
             f[i][j] = 0;
-            for (int k = 0; k < (1<<m); k++) if (!(j & k) && ok[j | k]) f[i][j] += f[i - 1][k];
+            for (int k = 0; k < (1<<m); k++)
+                if (!(j & k) && ok[j | k]) 
+                    f[i][j] += f[i - 1][k];
         }
-
     }
     printf("%lld\n", f[n - 1][0]);
 }

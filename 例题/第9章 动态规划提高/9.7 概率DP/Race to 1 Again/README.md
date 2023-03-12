@@ -1,0 +1,1 @@
+题目链接：[Race to 1 Again](https://vjudge.net/problem/LightOJ-1038)

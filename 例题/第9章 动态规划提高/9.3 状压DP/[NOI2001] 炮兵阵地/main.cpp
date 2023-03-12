@@ -39,9 +39,9 @@ void work() {
         for (const int &j: v) for (const int &k: v) f[u ^ 1][j][k] = -inf;
         for (const int &j: v) {
             for (const int &k: v) if (f[u][j][k] >= 0) {
-                for (const int &l: v) if ((l & a[i + 1]) == l && !(l & j) && !(l & k)) {
+                for (const int &l: v)   
+                    if ((l & a[i + 1]) == l && !(l & j) && !(l & k))
                     cmax(f[u ^ 1][k][l], f[u][j][k] + cnt[l]);
-                }
             }
         }
     }

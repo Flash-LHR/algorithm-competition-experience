@@ -39,7 +39,9 @@ void work() {
     getRes(mx, [](int a, int b) {return a > b;});
     getRes(mi, [](int a, int b) {return a < b;});
     int ans = inf;
-    for (int i = n; i <= a; i++) for (int j = n; j <= b; j++) ans = min(ans, mx[i][j] - mi[i][j]);
+    for (int i = n; i <= a; i++)
+        for (int j = n; j <= b; j++)
+            ans = min(ans, mx[i][j] - mi[i][j]);
     printf("%d\n", ans);
 }
 
