@@ -1,25 +1,27 @@
+#include <vector>
+#include <iostream>
+using namespace std;
+
 int n, m;
 vector<bool> vis;
 vector<vector<bool>> adj;
 
-bool find_edge(int u, int v) { return adj[u][v]; }
+bool find_edge(int u, int v) {
+    return adj[u][v]; 
+}
 
-void dfs(int u)
-{
+void dfs(int u){
     if (vis[u])
         return;
     vis[u] = true;
-    for (int v = 1; v <= n; ++v)
-    {
-        if (adj[u][v])
-        {
+    for (int v = 1; v <= n; ++v){
+        if (adj[u][v]){
             dfs(v);
         }
     }
 }
 
-int main()
-{
+int main(){
     cin >> n >> m;
 
     vis.resize(n + 1, false);

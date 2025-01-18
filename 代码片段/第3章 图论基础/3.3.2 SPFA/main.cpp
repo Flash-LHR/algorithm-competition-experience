@@ -1,3 +1,8 @@
+#include <queue>
+#include <cstring>
+#include <iostream>
+using namespace std;
+
 int spfa()
 {
     memset(dist, 0x3f, sizeof(dist));
@@ -29,4 +34,8 @@ int spfa()
     if (dist[n] == 0x3f3f3f3f)
         return -1; // 不存在最短路
     return dist[n];
+}
+
+int main(){
+    return 0;
 }

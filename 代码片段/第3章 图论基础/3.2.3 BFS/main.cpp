@@ -1,5 +1,9 @@
-void bfs()
-{
+#include <queue>
+#include <cstring>
+#include <iostream>
+using namespace std;
+
+void bfs(){
 
     memset(d, 0, sizeof(d));
 
@@ -8,14 +12,12 @@ void bfs()
     q.push(1);
     d[1] = 1;
 
-    while (q.size() > 0)
-    {
+    while (q.size() > 0){
 
         int x = q.front();
         q.pop();
 
-        for (int i = head[x]; i; i = edge[i].next)
-        {
+        for (int i = head[x]; i; i = edge[i].next){
             int y = edge[i].to;
 
             if (d[y])
@@ -26,4 +28,8 @@ void bfs()
             q.push(y);
         }
     }
+}
+
+int main() {
+    return 0;
 }

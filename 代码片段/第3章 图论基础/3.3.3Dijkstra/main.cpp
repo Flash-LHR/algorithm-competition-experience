@@ -1,3 +1,8 @@
+#include <queue>
+#include <cstring>
+#include <iostream>
+using namespace std;
+
 struct edge
 {
     int v, w;
@@ -39,4 +44,9 @@ void dijkstra(int n, int s)
             }
         }
     }
+}
+
+
+int main(){
+    return 0;
 }

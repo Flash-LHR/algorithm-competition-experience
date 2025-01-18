@@ -1,4 +1,8 @@
-struct E
+#include <vector>
+#include <iostream>
+using namespace std;
+
+struct Edge
 {
     int to, w, next;
 } edge[10010];
@@ -7,28 +11,23 @@ int n, m, cnt;
 bool vis[10010];
 int head[10010];
 
-void add(int u, int v, int w)
-{
+void add(int u, int v, int w){
     edge[cnt].to = v;
     edge[cnt].w = w;
     edge[cnt].next = head[u];
     head[u] = cnt++;
 }
 
-bool find_edge(int u, int v)
-{
-    for (int i = head[u]; ~i; i = edge[i].next)
-    { // ~i 表示 i != -1
-        if (edge[i].to == v)
-        {
+bool find_edge(int u, int v){
+    for (int i = head[u]; ~i; i = edge[i].next){ // ~i 表示 i != -1
+        if (edge[i].to == v){
             return true;
         }
     }
     return false;
 }
 
-void dfs(int u)
-{
+void dfs(int u){
     if (vis[u])
         return;
     vis[u] = true;
@@ -36,8 +35,7 @@ void dfs(int u)
         dfs(edge[i].to);
 }
 
-int main()
-{
+int main(){
     cin >> n >> m;
 
     memset(vis, 0, sizeof(vis));
